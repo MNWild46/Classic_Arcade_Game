@@ -1,3 +1,15 @@
 body {
     text-align: center;
+    background: linear-gradient(pink, orange);
+    height:100%;
+}
+header {
+    font-family: 'Roboto', sans-serif;
+    font-size:40px;
+    color: #000000;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size:20px;
+    color:#000000; 
 }
