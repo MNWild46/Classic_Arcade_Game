@@ -1,7 +1,17 @@
-frontend-nanodegree-arcade-game
-===============================
+# Welcome to the QUEST FOR CHOCOLATE
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
+## Table of Contents
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
-# Classic_Arcade_Game
+* [Instructions](#instructions)
+
+## Instructions
+
+This is the Quest for Chocolate! Can you guide Billy across the busy road to the candy store? Or does Bill get hit by a car?
+
+HOW TO PLAY:
+
+1) Once the page is loaded use the left arrow, right arrow, up arrow, and down arrow keys to move Billy.
+2) If you are struck by a vehicle, Billy will reset to the front yard of his house.
+3) If you make it to the store, you won! Billy will then reset back to his front yard.
+
+# ENJOY!
