@@ -20,16 +20,16 @@ Enemy.prototype.update = function(dt) {
     this.x += this.speed * dt;
 
     // when off canvas, reset position of enemy to move across again
-    if (this.x > 550) {
+    if (this.x > 450) {
         this.x = -100;
-        this.speed = 100 + Math.floor(Math.random() * 512);
+        this.speed = 150 + Math.floor(Math.random() * 600);
     }
 
     // Check for collision between player and enemies
-    if (player.x < this.x + 60 &&
+    if (player.x < this.x + 70 &&
         player.x + 37 > this.x &&
-        player.y < this.y + 25 &&
-        30 + player.y > this.y) {
+        player.y < this.y + 40 &&
+        40 + player.y > this.y) {
         player.x = 200;
         player.y = 380;
     }
@@ -52,8 +52,8 @@ var Player = function(x, y, speed) {
 
 Player.prototype.update = function() {
     // Prevent player from moving beyond canvas wall boundaries
-    if (this.y > 380) {
-        this.y = 380;
+    if (this.y > 500) {
+        this.y = 500;
     }
 
     if (this.x > 400) {
@@ -98,12 +98,12 @@ Player.prototype.handleInput = function(keyPress) {
 var allEnemies = [];
 var player = [];
 // Position "y" where the enemies will are created
-var enemyPosition = [60, 140, 220];
-var player = new Player(200, 380, 50);
+var enemyPosition = [80, 150, 240];
+var player = new Player(200, 400, 50);
 var enemy;
 
 enemyPosition.forEach(function(posY) {
-    enemy = new Enemy(0, posY, 100 + Math.floor(Math.random() * 512));
+    enemy = new Enemy(0, posY, 100 + Math.floor(Math.random() * 600));
     allEnemies.push(enemy);
 });
 
