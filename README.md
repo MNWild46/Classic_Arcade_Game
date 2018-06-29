@@ -18,7 +18,7 @@ HOW TO PLAY:
 
 # ENJOY!
 
-#Attribution:
+# Attribution:
 
 The following were used as inspiration or technical insight into functionality:
 1) https://github.com/guizoxxv/udacity-classic-arcade-game-clone
